@@ -17,23 +17,18 @@
     </nav>
     <div class="container">
         <h2>Обратная связь</h2>
-        <form action="Script/submit_form.php" method="post">
-            <div class="form-group">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Ваш Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Сообщение:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Отправить</button>
-            </div>
-        </form>
+        <form action="script/submit_from.php" method="POST">
+    		<label for="name">Ваше имя:</label>
+    		<input type="text" id="name" name="name" required>
+    
+    		<label for="email">Ваш email:</label>
+    		<input type="email" id="email" name="email" required>
+    
+    		<label for="message">Сообщение:</label>
+   		<textarea id="message" name="message" required></textarea>
+    
+    		<button type="submit">Отправить</button>
+    	</form>
     </div>
     <footer>
         <p>&copy; 2024 Все права защищены. Все для строительства дома.</p>
