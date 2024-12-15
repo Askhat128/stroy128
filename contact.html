@@ -1,0 +1,43 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь - Все для строительства дома</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Все для строительства дома</h1>
+    </header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="products.html">Товары</a>
+        <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="container">
+        <h2>Обратная связь</h2>
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Все права защищены. Все для строительства дома.</p>
+    </footer>
+</body>
+</html>
