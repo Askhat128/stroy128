@@ -17,22 +17,29 @@
     </nav>
     <div class="container">
         <h2>Обратная связь</h2>
-        <form action="https://formspree.io/f/xldeyeyg" method="POST">
-    		<label for="name">Ваше имя:</label>
-    		<input type="text" id="name" name="name" required>
-    
-    		<label for="email">Ваш email:</label>
-    		<input type="email" id="email" name="email" required>
-    
-    		<label for="message">Сообщение:</label>
-   		<textarea id="message" name="message" required></textarea>
-    
-    		<button type="submit">Отправить</button>
+        <form action="Script/submit_from.php" method="POST">
+		<div class="form-group">
+    			<label for="name">Ваше имя:</label>
+    			<input type="text" id="name" name="name" required>
+    		</div>
+		<div class="form-group">
+    			<label for="email">Ваш email:</label>
+    			<input type="email" id="email" name="email" required>
+    		</div>
+		<div class="form-group">
+    			<label for="message">Сообщение:</label>
+   			<textarea id="message" name="message" required></textarea>
+    		</div>
+		<div class="form-group">
+    			<button type="submit">Отправить</button>
+		</div>
     	</form>
     </div>
-    <footer>
-        <p>&copy; 2024 Все права защищены. Все для строительства дома.</p>
-    </footer>
+    <div class="footer">
+	<b>Разработчик: </b><span>команда группы 119с1</span><br>
+	<b>Адрес:</b><span>ТГАСУ, г. Томск, пл. Соляная, 2</span><br>
+	<b>e-mail:</b> <span>gr119c1@gmail.com</span>
+    </div>
     <button id="toTopBtn">Наверх</button>
     <script src="Script/scripts.js"></script>
 </body>

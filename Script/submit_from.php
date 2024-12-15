@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     // Настройки email
-    $to = "askhat.baimagambetov128@gmail.com"; // Ваш email
+    $to = "gr119c1"; // Ваш email
     $subject = "Новое сообщение от $name";
     $body = "Имя: $name\nEmail: $email\nСообщение: $message";
     
